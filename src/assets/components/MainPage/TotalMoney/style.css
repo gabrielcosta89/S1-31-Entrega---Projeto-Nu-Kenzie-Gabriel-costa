@@ -1,0 +1,35 @@
+.totalDiv {
+  height: 6rem;
+  width: 22.688rem;
+  left: 16.125rem;
+  top: 30.875rem;
+  border-radius: 0.25rem;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  max-width: 100%;
+}
+
+.totalDiv .totalLeft {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.totalDiv .totalLeft p {
+  color: var(--color-grey-4);
+  font-size: var(--text-1);
+  font-weight: 700;
+}
+.totalDiv .totalLeft span {
+  color: var(--color-grey-3);
+  font-weight: 400;
+  font-size: var(--text-2);
+}
+.totalDiv .totalright {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: var(--text-1);
+}

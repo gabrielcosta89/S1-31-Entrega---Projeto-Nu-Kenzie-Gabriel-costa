@@ -1,0 +1,81 @@
+.headerHome {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-grey-4);
+}
+
+.headerHome .center {
+  height: 37.063rem;
+  max-width: 100%;
+  width: 61.75rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 0.625rem;
+}
+.leftHome {
+  height: 100%;
+  width: 21.688rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 6.875rem 0rem;
+  gap: 1.75rem;
+}
+.leftHome img {
+  height: 1.25rem;
+  width: 7.625rem;
+}
+
+.leftHome h1 {
+  width: 21.688rem;
+  font-size: var(--title-1);
+  max-width: 100%;
+  height: max-content;
+  font-weight: 50rem;
+  color: #ffffff;
+}
+.leftHome span {
+  font-size: var(--text-1);
+  color: #ffffff;
+}
+.rightHome {
+  height: 37.063rem;
+  width: 37.063rem;
+}
+
+.leftHome .homeButton {
+  width: 15.063rem;
+  color: #ffffff;
+  font-size: var(--text-1);
+}
+.rightHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1.25;
+}
+.rightHome img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .headerHome {
+    height: 100%;
+  }
+  .leftHome {
+    padding: 50px 10px 10px 10px;
+    justify-content: center;
+  }
+  .headerHome .center {
+    flex-direction: column;
+    height: max-content;
+  }
+  .rightHome {
+    max-width: 100%;
+    justify-content: start;
+    height: max-content;
+    padding-top: 20px;
+  }
+}
