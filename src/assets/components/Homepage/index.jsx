@@ -1,4 +1,4 @@
-import "../Homepage/HomePage.css";
+import "../Homepage/homePage.css";
 import "../../../assets/Nu Kenzie.svg";
 import logo from "../../Nu Kenzie.svg";
 import ilustration from "../../homePageIlustration.svg";

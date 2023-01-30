@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../list/style.css";
 import trash from "../../../../assets/trash.svg";
 import trashWhite from "../../../../assets/trashWhite.svg";
-import noTransaction from "../../../../assets/noCard.svg";
+import noTTransaction from "../../../../assets/NoCard.svg";
 
 export function TransactionList({ listTransactions, setListTransactions }) {
   const [filteredTransaction, setfilteredTransaction] =
@@ -91,7 +91,7 @@ export function TransactionList({ listTransactions, setListTransactions }) {
           <h2>Você ainda não possui nenhum lançamento</h2>
           <ul className="noTransactionList">
             <li>
-              <img src={noTransaction} alt="no card" />
+              <img src={noTTransaction} alt="no card" />
             </li>
           </ul>
         </div>
